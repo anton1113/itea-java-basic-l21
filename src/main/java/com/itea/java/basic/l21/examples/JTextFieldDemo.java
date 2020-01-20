@@ -24,8 +24,9 @@ public class JTextFieldDemo {
 
     private JFrame createJFrame() {
         JFrame jFrame = new JFrame("JTextField demo application");
-        jFrame.setSize(225, 140);
+        jFrame.setSize((int) Toolkit.getDefaultToolkit().getScreenSize().getWidth() / 5, Toolkit.getDefaultToolkit().getScreenSize().height / 8);
         jFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        jFrame.setLocationRelativeTo(null);
         jFrame.setLayout(new FlowLayout());
         jFrame.setVisible(true);
         return jFrame;

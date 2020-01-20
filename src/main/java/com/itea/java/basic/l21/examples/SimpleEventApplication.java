@@ -9,7 +9,7 @@ public class SimpleEventApplication {
 
         JFrame jFrame = new JFrame("Simple Event application");
 
-        jFrame.setSize(240, 90);
+        jFrame.setSize(350, 200);
         jFrame.setLayout(new FlowLayout());
 
         jFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
